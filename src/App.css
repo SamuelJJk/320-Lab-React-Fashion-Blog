@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  border: solid black;
+  margin:4em;
+  /* height: 1200px; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -35,4 +39,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pagetitle{
+ /* border: solid black; */
+ font-family: Arial, Helvetica, sans-serif;
+ /* margin:0px 4em; */
+}
+.pagetitle h1{
+  font-size: 75px;
+  font-weight:100;
+  color: orangered;
+  display: flex;
+  margin: 0px 0px 10px 5px;
+}
+.pagetitle h2{
+  font-size: 30px;
+  font-weight: 200;
+  display: flex;
+  margin: 0px;
+  margin-left: 5px;
+}
+.navbar{
+ /* margin:0px 3.5em; */
+ /* border: solid black; */
+ height: 60px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 20px;
+ color: rgb(136, 124, 124);
+ text-decoration: underline;
+ margin: 15px 10px 0px;
+}
+.article{
+  border-bottom:2px solid lightgray;
+  /* height: 800px; */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 1em;
+}
+.date{
+  font-size: 30px;
+  color: rgb(136, 124, 124);
+
+}
+.art_title{
+  font-size: 45px;
+}
+.art_img{
+  width: 100%;
+}
+.art_text{
+  font-size: 15px;
+  text-align: left;
+}
+.next{
+  display: block;
+  justify-self: flex-end;
+  background-color: white;
+  border: 0px;
+  color: orangered;
+  margin-left: auto;
 }
